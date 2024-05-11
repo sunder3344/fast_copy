@@ -35,4 +35,4 @@ open the demo.php, here is the code, it's very simple, fist parameter is source 
 
 ## execute efficiency
 
-maybe `20% performance promotion than before`, [for more test detail](https://github.com/sunder3344/linux_kernel_magic/tree/main/io_uring)
+more than `20% performance promotion than before`, [for more test detail](https://github.com/sunder3344/linux_kernel_magic/tree/main/io_uring)
