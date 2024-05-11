@@ -1,0 +1,7 @@
+ARG_ENABLE('fast_copy', 'fast_copy support', 'no');
+
+if (PHP_FAST_COPY != 'no') {
+	AC_DEFINE('HAVE_FAST_COPY', 1, 'fast_copy support enabled');
+
+	EXTENSION('fast_copy', 'fast_copy.c', null, '/DZEND_ENABLE_STATIC_TSRMLS_CACHE=1');
+}
