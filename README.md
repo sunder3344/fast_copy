@@ -36,3 +36,7 @@ open the demo.php, here is the code, it's very simple, fist parameter is source 
 ## execute efficiency
 
 more than `50% performance promotion than before`, [for more test detail](https://github.com/sunder3344/linux_kernel_magic/tree/main/io_uring)
+
+![Alt Text](pic/compare.jpg)
+
+we can find the io_uring embed in php run faster(nearly 100%) than golang function(fast.go)
