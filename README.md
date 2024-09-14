@@ -1,5 +1,5 @@
 # php_fast_copy
-big file fast copy(base on io_uring), faster than the common copy method(php8).
+big file fast copy(base on io_uring), faster than the common copy method(php8, linux kernel >= 5.10).
 
 ## complile
 
