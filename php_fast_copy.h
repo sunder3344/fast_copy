@@ -1,5 +1,6 @@
 /* fast_copy extension for PHP */
 
+#include <liburing.h>
 #ifndef PHP_FAST_COPY_H
 # define PHP_FAST_COPY_H
 
