@@ -4,7 +4,7 @@ big file fast copy(base on io_uring), faster than the common copy method(php8).
 ## complile
 
 - /your_php_installed_folder/bin/phpize
-- go into the PHP source file and run "./configure --with-php-config=/your_php_installed_folder/bin/php-config --with-fast_copy=/usr/include"   (please check file /usr/include/liburing.php exist)
+- go into this fast_copy file and run "./configure --with-php-config=/your_php_installed_folder/bin/php-config --with-fast_copy=/usr/include"   (please check file /usr/include/liburing.php exist)
 - add your liburing path to LD_LIBRARY_PATH and LD_RUN_PATH in file ~/.bashrc.
   after editing, execute `source ~/.bashrc`
 	```
